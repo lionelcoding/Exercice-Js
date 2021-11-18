@@ -12,3 +12,26 @@ const books = [
     { title: 'Voyage au centre de la Terre', id: 4656388, rented: 38 },
     { title: 'Guerre et Paix', id: 748147, rented: 19 }
   ];
+
+  var result = 1
+
+
+  
+  for (let bookAttribut in books) {
+    let bookRented = books[bookAttribut].rented
+    let bookTitle = books[bookAttribut].title
+    let bookId = books[bookAttribut].id
+
+      // Livres ont été au moins empruntés une fois
+  result *= bookRented
+  };
+
+
+
+// 1
+console.log("1. Est-ce que tous les livres ont été au moins empruntés une fois?")
+if(result > 0) {
+  console.log("Oui") 
+} else {
+  console.log("Non")
+}

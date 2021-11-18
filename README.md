@@ -1,7 +1,7 @@
 # Exercice-Js
 Exercices d'introduction à javascript de THP.
 
-Tu pourras retrouver un fichier html (index.html ;) ) dans lequel tu pourras,
+Décommente les balises <script> dans le fichier html index.html
 
 depuis ton navigateur vérifier les exercices ! (F12, puis console)
 
